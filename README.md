@@ -12,12 +12,15 @@ The game is played by two players, and the goal is to place four checkers in a r
 HOW TO PLAY
 
 To play with two human players, enter the command:
+
 connect_four(Player('X'), Player('O'))
 
 To play against an "unintelligent" AI player, enter the command:
+
 connect_four(Player('X'), RandomPlayer('O'))
 
 To play against an intelligent AI player, enter the command (increasing the last parameter for the AIPlayer will make the AI player smarter - this value represents how many moves the AI looks ahead into when planning its move. A lower value will make the AI player less intelligent. Note that higher values may take more time to process):
+
 connect_four(Player('X'), AIPlayer('O', 'RANDOM', 5))
 
 
